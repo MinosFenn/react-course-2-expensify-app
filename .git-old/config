@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:MinosFenn/react-course-2-expensify-app.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "heroku"]
+	url = https://git.heroku.com/react-course-2-expensify-minos.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*

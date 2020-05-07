@@ -1,0 +1,8 @@
+
+1. lancer live-server public dans le terminal
+2. puis pour avoir le tracking live: babel src/playground/es6-let-const.js --out-file=public/scripts/app.js --presets=env,react --watch
+3. let can be reassigned but not redefined & const cant be redefined and reassigned
+4. let/const/var voir différence plus en profondeur
+5. (block level scops) let & const dont let you access variable  if console log is outside of it
+6. ctrl + F2 to select all occurencies
+7. only use let if you know you will reassign variables
